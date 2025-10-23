@@ -27,7 +27,7 @@ public class Play : MonoBehaviour
         if (vPlayer.isPlaying)
         {
             Color c = iPlay.color;
-            c.a -= (float)0.02;
+            c.a -= (float)0.03;
             iPlay.color = c;
         }
     }
