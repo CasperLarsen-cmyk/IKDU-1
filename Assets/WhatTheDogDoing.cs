@@ -31,7 +31,7 @@ public class WhatTheDogDoing : MonoBehaviour
 
         this.transform.position = originalPos + new Vector3(moveW * math.sin(cycle * 5), moveH * math.cos(cycle), 0);
 
-        cycle += math.PI * 2 * Time.deltaTime / 5;
+        cycle += math.PI * 2 * Time.deltaTime / 10;
         //cycle += 0.01f;
         if (this.transform.position.x > originalPos.x + moveW * math.sin(cycle * 5))
         {
